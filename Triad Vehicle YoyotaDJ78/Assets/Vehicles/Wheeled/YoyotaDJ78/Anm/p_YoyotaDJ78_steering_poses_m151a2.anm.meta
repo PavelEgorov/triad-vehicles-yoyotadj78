@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3B4AC812D20A0C01}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_steering_poses_m151a2.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleCar_01 (BI sample) -> j79"
+   SourceProfile "102_FullBodyABS_camera"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

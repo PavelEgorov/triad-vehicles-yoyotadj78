@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A13C84C22938AA11}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_aimspace_left02.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "character_rig.blend"
+   SourceProfile "p_character"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

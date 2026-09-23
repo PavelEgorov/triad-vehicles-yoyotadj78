@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{51B8AB6F10723F18}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama_M2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

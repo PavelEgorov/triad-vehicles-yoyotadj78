@@ -1,0 +1,38 @@
+Turret : "{F6E0D4A62A1EE91F}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{8A2D0D832351C1D7}" {
+     EntryPositionInfo PointInfo "{E269FA449FE6B66A}" {
+      PivotID "gunner_idle"
+     }
+     ExitPositionInfo PointInfo "{183EBD4905E6F46E}" {
+      PivotID "gunner_idle"
+     }
+     ExitTeleportPositionInfo PointInfo "{6718A6CD67F63A9F}" {
+      PivotID "gunner_idle"
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "Scene_Root"
+    Offset 0 1.22 0.095
+   }
+   WeaponTemplate "{E2B38E7E088E3474}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/UAZ469_weapon_mount_6T5_PKM.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "gunner_idle"
+      Offset 0 0.5 0.2
+     }
+     Radius 0.9
+    }
+   }
+  }
+ }
+}

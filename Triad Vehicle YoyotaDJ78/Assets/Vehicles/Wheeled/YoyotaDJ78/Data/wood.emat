@@ -1,0 +1,5 @@
+MatPBRBasic "{9F59048CDD44CF08}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/wood.emat" {
+ BCRMap "{46043C7DDA4A67B4}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v2_wood_BCR.edds"
+ NMOMap "{7EDC87EF033D352A}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v2_wood_NMO.edds"
+ UVSrcGlobalMaps "UV set 2"
+}

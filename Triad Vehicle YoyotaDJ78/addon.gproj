@@ -1,0 +1,29 @@
+GameProject {
+ ID "TriadVehicleYoyotaDJ78"
+ GUID "69853A83EF75418F"
+ TITLE "Yoyota DJ78"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{4A79000000000071}" {
+    StringTables {
+     StringTableDefinition "{4A79000000000072}" {
+      StringTableSource "{91E0F6253032266E}Language/localization.st"
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

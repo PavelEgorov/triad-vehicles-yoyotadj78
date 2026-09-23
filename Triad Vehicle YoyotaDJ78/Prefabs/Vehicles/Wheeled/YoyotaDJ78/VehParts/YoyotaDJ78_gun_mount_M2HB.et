@@ -1,0 +1,24 @@
+Turret : "{8BBB4EEDF8E30C32}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_M2HB.et" {
+ ID "6D6D283656DBA232"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{30A1219F8EBB7894}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_mount.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     m_iCompartmentSection 1
+    }
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -45 45
+   LimitsVert -5 40
+  }
+  CompartmentAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimInstance "{9B04D8F1AF8A05E9}Assets/Vehicles/Wheeled/YoyotaDJ78/workspaces/YoyotaDJ78_Gunner.asi"
+   }
+  }
+ }
+}

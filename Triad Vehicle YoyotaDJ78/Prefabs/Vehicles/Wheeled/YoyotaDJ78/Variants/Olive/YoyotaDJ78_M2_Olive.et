@@ -1,0 +1,19 @@
+Vehicle : "{5BA9B0DB09C8EB83}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_M2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E48CBBC4D964F22}" {
+     SourceMaterial "carpaint"
+     AssignedMaterial "{B820616C7E1D26E1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Olive/YoyotaDJ78_olive_carpaint.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Yoyota DJ78 M2 - Olive"
+    m_Image "{72C4BFF9304944E1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Olive/YoyotaDJ78_olive_M2_BCR.edds"
+   }
+  }
+ }
+}

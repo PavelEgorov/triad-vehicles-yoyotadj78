@@ -1,0 +1,10 @@
+MatPBRBasicGlass "{38F83AFD0FF96658}Assets/Vehicles/Wheeled/YoyotaDJ78/Dstr/Data/redglass.emat" {
+ Color 0.43 0.05 0.05 1
+ Sort translucent
+ SpecularMul 0.6
+ AlphaMul 0.75
+ BlendMode AlphaBlend
+ RoughnessScale 0.15
+ DetailNormalPower 0.35
+ DetailNormalMap "{9B3FC524FE4EEDAA}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v3_optics_red_NMO.edds"
+}

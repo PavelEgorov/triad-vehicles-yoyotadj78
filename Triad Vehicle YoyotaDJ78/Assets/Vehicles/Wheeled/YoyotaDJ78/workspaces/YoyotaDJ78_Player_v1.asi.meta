@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B371BF7E4C48FB10}Assets/Vehicles/Wheeled/YoyotaDJ78/workspaces/YoyotaDJ78_Player_v1.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass PS5 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

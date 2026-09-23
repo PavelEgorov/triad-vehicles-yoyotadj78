@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{85AAB9C02A153A03}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_smawi.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

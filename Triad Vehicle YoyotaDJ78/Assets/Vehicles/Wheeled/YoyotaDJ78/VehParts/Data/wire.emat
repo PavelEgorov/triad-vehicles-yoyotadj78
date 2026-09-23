@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.25 0.25 0.26 1
+ BCRMap "{3807DB94DA6822B8}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_field_chrome_BCR.edds"
+ NMOMap "{00DF6006031F7026}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_field_chrome_NMO.edds"
+}

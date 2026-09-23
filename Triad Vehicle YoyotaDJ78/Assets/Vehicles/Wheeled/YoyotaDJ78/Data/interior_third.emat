@@ -1,0 +1,7 @@
+MatPBRBasic "{92B5D7F60B04A14C}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/interior_third.emat" {
+ BCRMap "{47A83EC9D7B73860}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_cabin_2k_BCR.edds"
+ NMOMap "{7F70855B0EC06AFE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_cabin_2k_NMO.edds"
+ DetailNormalPower 1
+ DetailNormalMap "{4BE89DBFA9EBE509}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v2_vinyl_NMO.edds"
+ UVSrcDetailNormalMap "UV set 2"
+}

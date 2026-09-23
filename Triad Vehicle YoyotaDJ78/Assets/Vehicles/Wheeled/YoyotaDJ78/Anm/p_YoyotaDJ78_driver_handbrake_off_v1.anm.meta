@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4913E131C2B16184}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_driver_handbrake_off_v1.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

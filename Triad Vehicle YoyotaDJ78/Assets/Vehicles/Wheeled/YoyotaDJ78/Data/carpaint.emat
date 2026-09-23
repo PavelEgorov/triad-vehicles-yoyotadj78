@@ -1,0 +1,28 @@
+MatPBRBasic "{BB808C977AB42CAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/carpaint.emat" {
+ VFXMap "{86402284DF2444D8}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_paint_2k_VFX.edds"
+ MetalnessScale 0
+ MudOpacity 0.94
+ MudColor 0.122 0.111 0.093 1
+ MudRoughness 0
+ MudMetalness 0
+ MudAO 0.571
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{6A4B42BCA2899B99}" {
+  TilingU 61.848
+  TilingV 61.848
+ }
+ DirtOpacity 0.41
+ DirtLayerSharpness 0.35
+ DirtColor 0.13 0.119 0.101 1
+ DirtRoughness 1.678
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{6A4B42BCA2899A1A}" {
+  TilingU 30.924
+  TilingV 30.924
+ }
+ BCRMap "{CEEA9CBE5A37A72A}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_paint_2k_BCR.edds"
+ NMOMap "{F632272C8340F5B4}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_paint_2k_NMO.edds"
+}

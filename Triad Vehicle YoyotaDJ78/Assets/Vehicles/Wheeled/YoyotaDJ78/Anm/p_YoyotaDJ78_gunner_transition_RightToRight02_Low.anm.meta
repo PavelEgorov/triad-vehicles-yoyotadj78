@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{23F4DC73A45FEE70}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_RightToRight02_Low.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "character_rig.blend"
+   SourceProfile "p_character"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

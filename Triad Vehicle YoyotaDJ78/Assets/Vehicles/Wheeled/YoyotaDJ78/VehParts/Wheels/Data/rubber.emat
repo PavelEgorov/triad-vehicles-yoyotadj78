@@ -1,0 +1,4 @@
+MatPBRBasic "{DC06D1F157540137}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/Data/rubber.emat" {
+ BCRMap "{E8B022AC2A329579}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/Data/YoyotaDJ78_v3_wheel_rubber_2k_BCR.edds"
+ NMOMap "{D068993EF345C7E7}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/Data/YoyotaDJ78_v3_wheel_rubber_2k_NMO.edds"
+}

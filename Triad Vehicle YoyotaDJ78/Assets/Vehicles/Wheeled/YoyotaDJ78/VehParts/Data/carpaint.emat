@@ -1,0 +1,10 @@
+MatPBRBasic {
+ SpecularMul 1
+ RoughnessScale 1.3
+ MetalnessScale 0
+ AOScale 1
+ DielectricReflectance 0.05
+ BCRMap "{3807DB94DA6822B8}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_field_chrome_BCR.edds"
+ NormalPower 1
+ NMOMap "{00DF6006031F7026}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_field_chrome_NMO.edds"
+}

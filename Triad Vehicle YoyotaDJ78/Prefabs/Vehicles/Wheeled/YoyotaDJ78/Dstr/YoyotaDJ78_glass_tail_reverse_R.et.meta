@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1B97C4F8F269F7F4}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_tail_reverse_R.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

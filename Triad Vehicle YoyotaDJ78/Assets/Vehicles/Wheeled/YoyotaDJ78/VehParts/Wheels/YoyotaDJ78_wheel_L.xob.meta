@@ -1,0 +1,72 @@
+MetaFileClass {
+ Name "{222CFF0CC9D288BA}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/YoyotaDJ78_wheel_L.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{69F45BCF65AD6718}" {
+     SourceMaterial "rubber"
+     AssignedMaterial "{DC06D1F157540137}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/Data/rubber.emat"
+    }
+    MaterialAssignClass "{69F2EAC845F0AA02}" {
+     SourceMaterial "black"
+     AssignedMaterial "{C7AA0EFD02A2AAC1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/black.emat"
+    }
+    MaterialAssignClass "{69F61D7D2E130876}" {
+     SourceMaterial "disk"
+     AssignedMaterial "{A9D659483E29A4C5}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/Data/disk.emat"
+    }
+    MaterialAssignClass "{69F61D7D2E130865}" {
+     SourceMaterial "wire"
+     AssignedMaterial "{ACE89BDDA62BABA7}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/Data/wire.emat"
+    }
+   }
+   MeshParams {
+    MeshParam wheel {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_VC_wheel00 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Wheel {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{69F2EAC845F077C5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{69F2EAC845F07654}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{69F2EAC845F0763E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{69F2EAC845F07618}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{69F2EAC845F076F9}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{69F2EAC845F076D9}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,10 @@
+MatPBRBasicGlass "{C6826FC6B00308B6}Assets/Vehicles/Wheeled/YoyotaDJ78/Dstr/Data/orangeglass.emat" {
+ Color 0.74 0.29 0 1
+ Sort translucent
+ SpecularMul 0.6
+ AlphaMul 0.7
+ BlendMode AlphaBlend
+ RoughnessScale 0.15
+ DetailNormalPower 0.35
+ DetailNormalMap "{2C9DF68C72882B3B}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v3_optics_amber_NMO.edds"
+}

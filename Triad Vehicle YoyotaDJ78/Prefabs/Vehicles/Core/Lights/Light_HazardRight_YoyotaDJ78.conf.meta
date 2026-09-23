@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{24794A05C9824157}Prefabs/Vehicles/Core/Lights/Light_HazardRight_YoyotaDJ78.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

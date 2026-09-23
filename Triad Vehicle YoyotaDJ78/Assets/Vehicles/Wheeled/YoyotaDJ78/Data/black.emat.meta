@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C7AA0EFD02A2AAC1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/black.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

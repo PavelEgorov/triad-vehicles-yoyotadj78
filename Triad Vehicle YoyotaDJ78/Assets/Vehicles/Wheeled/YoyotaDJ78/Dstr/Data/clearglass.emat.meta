@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F893A61D289BD217}Assets/Vehicles/Wheeled/YoyotaDJ78/Dstr/Data/clearglass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

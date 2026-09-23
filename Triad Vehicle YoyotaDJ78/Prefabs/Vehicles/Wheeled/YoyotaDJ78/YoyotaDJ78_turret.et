@@ -1,0 +1,51 @@
+Vehicle : "{607FD4A25F5BB871}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Yoyota DJ78 Turret"
+    m_Image "{90FE6AEF89973A9A}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_turret_BCR.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69F83150799EAE98}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Gunner {
+     Offset 0 0.02 0
+     MergePhysics 1
+     Prefab "{3B30B8AAC9629474}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_gun_mount_M2HB.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{69F71ADB73835DFC}" {
+     UIInfo SCR_ActionContextUIInfo "{8D47918D6C4E0FAE}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      m_sIconName "veh_gunner"
+     }
+     ContextName "gunner"
+     Position PointInfo "{69F71ADB73835D80}" {
+      PivotID "v_turret_bed"
+     }
+     Radius 0.7
+     Omnidirectional 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C6826FC6B00308B6}Assets/Vehicles/Wheeled/YoyotaDJ78/Dstr/Data/orangeglass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

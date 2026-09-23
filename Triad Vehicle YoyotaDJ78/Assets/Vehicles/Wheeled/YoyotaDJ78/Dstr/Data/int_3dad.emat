@@ -1,0 +1,10 @@
+MatPBRBasicGlass "{7409BBD995A36802}Assets/Vehicles/Wheeled/YoyotaDJ78/Dstr/Data/int_3dad.emat" {
+ Color 0.03 0.03 0.03 1
+ ZWrite 0
+ Sort translucent
+ AlphaMul 0.06
+ BlendMode AlphaBlend
+ RoughnessScale 0.08
+ MetalnessScale 0
+ Backscatterig 0
+}

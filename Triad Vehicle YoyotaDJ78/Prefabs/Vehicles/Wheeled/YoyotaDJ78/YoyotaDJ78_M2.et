@@ -1,0 +1,139 @@
+Vehicle : "{607FD4A25F5BB871}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{82605326E83798A6}" {
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot Cargo_02 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "hood_rear" "cargo_02"
+      }
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      VisibilityRange 5
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "cargo_02"
+      }
+      VisibilityRange 5
+      "Sort Priority" 9
+     }
+     PassengerPositionInfo EntitySlotInfo "{E9E6D5FC474196D8}" {
+      PivotID "cargo_02_idle"
+     }
+     SkipCharacterDoorAnimationsFromSeat 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 0.1
+     ContextName "cargo_02"
+     m_iCompartmentSection 1
+    }
+    CargoCompartmentSlot Cargo_04 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "hood_rear" "cargo_04"
+      }
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      VisibilityRange 5
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "cargo_04"
+      }
+      VisibilityRange 5
+      "Sort Priority" 9
+     }
+     PassengerPositionInfo EntitySlotInfo "{73A6ECB3E1ED3E9B}" {
+      PivotID "cargo_04_idle"
+     }
+     SkipCharacterDoorAnimationsFromSeat 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 0.1
+     ContextName "cargo_04"
+     m_iCompartmentSection 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Yoyota DJ78 M2"
+    m_Image "{3CEB1E2102B2B0E4}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_M2_BCR.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69F8315180A8F176}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Frame_roof {
+     PivotID "v_frame_roof"
+     MergePhysics 1
+     Enabled 1
+     Prefab "{51B8AB6F10723F18}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama_M2.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{10A9541FA58A5EC7}" {
+     UIInfo SCR_ActionContextUIInfo "{10D3406C2C444E8B}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      m_sIconName "passenger"
+     }
+     ContextName "cargo_02"
+     Position PointInfo "{2DF589D091E7AC93}" {
+      PivotID "cargo_02_idle"
+     }
+     Radius 0.6
+     Omnidirectional 1
+    }
+    UserActionContext "{E6196CDEDCA80C3A}" {
+     UIInfo SCR_ActionContextUIInfo "{A185B41C11A398C7}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      m_sIconName "passenger"
+     }
+     ContextName "cargo_04"
+     Position PointInfo "{796311760D1213CC}" {
+      PivotID "cargo_04_idle"
+     }
+     Radius 0.6
+     Omnidirectional 1
+    }
+   }
+  }
+ }
+}

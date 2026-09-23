@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{275A96F9F6ECE044}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_codriver_out_closeDoor.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

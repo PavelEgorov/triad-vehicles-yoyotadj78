@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4B323B851CC35772}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_bulb_turn_rear_R.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

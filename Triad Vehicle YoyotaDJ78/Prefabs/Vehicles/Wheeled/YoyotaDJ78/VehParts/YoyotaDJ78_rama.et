@@ -1,0 +1,67 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{42F79C17B60434F7}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama.xob"
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Static 0
+   Kinematic 0
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{8A2D0D832351C1D7}" {
+     ContextName "NoDoor_Gunner"
+     EntryPositionInfo PointInfo "{E269FA449FE6B66A}" {
+     }
+     ExitPositionInfo PointInfo "{183EBD4905E6F46E}" {
+     }
+     ExitTeleportPositionInfo PointInfo "{6718A6CD67F63A9F}" {
+      PivotID "gunner_front_getIn"
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{5FF7EBBA6BA43120}" {
+      PivotID "gunner_idle"
+     }
+     ForcedFreeLook 0
+     CharactersCanFallOutOnFlip 1
+     DoorInfoList {
+      0
+     }
+     AllowAiming 1
+     m_iCompartmentSection 1
+    }
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -45 45
+   LimitsVert -15 40
+   TurretReloadPosition 500 30
+   TurretUnconsciousPosition 500 60
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 1.239 0.095
+    MergePhysics 1
+   }
+   WeaponTemplate ""
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   AllowCrossHierarchy 1
+  }
+  CompartmentAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimInstance "{9B04D8F1AF8A05E9}Assets/Vehicles/Wheeled/YoyotaDJ78/workspaces/YoyotaDJ78_Gunner.asi"
+   }
+  }
+ }
+}

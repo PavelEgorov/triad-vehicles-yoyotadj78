@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{57C630391DCF2E14}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_light_in.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "122_UpperBodyABS_LeftArmABS"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

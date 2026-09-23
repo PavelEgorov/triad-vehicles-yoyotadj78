@@ -1,0 +1,4 @@
+MatPBRBasic : "{BB808C977AB42CAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/carpaint.emat" {
+ BCRMap "{DBDCFD727D8AD4E9}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Desert/GritV5/YoyotaDJ78_desert_grit_paint_2k_BCR.edds"
+ NMOMap "{E30446E0A4FD8677}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Desert/GritV5/YoyotaDJ78_desert_grit_paint_2k_NMO.edds"
+}

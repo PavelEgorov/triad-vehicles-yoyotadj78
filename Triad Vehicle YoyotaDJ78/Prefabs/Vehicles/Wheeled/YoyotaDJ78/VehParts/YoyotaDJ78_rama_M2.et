@@ -1,0 +1,44 @@
+Turret : "{F6E0D4A62A1EE91F}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{AA3BF90D881C07AF}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama_M2.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{8A2D0D832351C1D7}" {
+     EntryPositionInfo PointInfo "{E269FA449FE6B66A}" {
+      PivotID "gunner_front_getIn"
+     }
+     ExitPositionInfo PointInfo "{183EBD4905E6F46E}" {
+      PivotID "gunner_front_getIn"
+     }
+     ExitTeleportPositionInfo PointInfo "{6718A6CD67F63A9F}" {
+     }
+    }
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -45 45
+   LimitsVert -5 40
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 1.27 0.09
+   }
+   WeaponTemplate "{E517E6CCC1DF5737}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M1025.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "gunner_front_getIn"
+      Offset 0 0.5 0.2
+     }
+     Radius 0.9
+     Omnidirectional 1
+    }
+   }
+  }
+ }
+}

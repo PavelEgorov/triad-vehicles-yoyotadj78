@@ -1,0 +1,9 @@
+MatPBRBasic {
+ SpecularMul 0.6
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{A8F5BDEEA7030108}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_wreckmetal_BCR.edds"
+ NormalPower 1.5
+ NMOMap "{902D067C7E745396}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_wreckmetal_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6BFF52D92231B9E1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/seat_perf.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

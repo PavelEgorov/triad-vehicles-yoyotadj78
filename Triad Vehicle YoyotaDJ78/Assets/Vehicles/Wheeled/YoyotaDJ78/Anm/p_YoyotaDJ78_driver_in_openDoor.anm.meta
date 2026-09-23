@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5954D027ECD1D31A}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_driver_in_openDoor.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

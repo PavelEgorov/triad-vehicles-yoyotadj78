@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{7F88A5AA2FF49C29}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_driver_handbrake_in.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "102_FullBodyABS_camera"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

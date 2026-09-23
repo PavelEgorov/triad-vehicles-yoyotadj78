@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{97D5C9BBC898BA96}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_dashlens.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

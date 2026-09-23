@@ -1,0 +1,16 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{7DB50836121B10AC}Assets/Vehicles/Wheeled/YoyotaDJ78/Lights/YoyotaDJ78_headlight_R.xob"
+  }
+  SlotManagerComponent "{69F33CF22CCBEC46}" {
+   Slots {
+    EmissiveGlassSlot glass {
+     Prefab "{F1934E7CB844AE54}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_headlight_R.et"
+    }
+   }
+  }
+ }
+ coords 3047.753 12.186 2896.231
+}

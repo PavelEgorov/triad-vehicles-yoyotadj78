@@ -1,0 +1,193 @@
+AnimSetInstanceSource "{5D9EA51ADBE6687D}" {
+ Template "{2CB6028D80896F51}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m151a2.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.Driver.AccelerationSpine" {
+   Resource "{63090696D898412E}Assets/Vehicles/Wheeled/M151A2/anm/p_M151_gunner_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
+   Resource "{C522F8CD4E7AA036}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_M151_gunner_back_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
+   Resource "{E605BAEFB62D17B6}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_M151_gunner_backs_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Idle" {
+   Resource "{823372E67DA72043}Assets/Vehicles/Wheeled/M151A2/anm/p_m151a2_driver_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchIn" {
+   Resource "{E605BAEFB62D17B6}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_M151_gunner_backs_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchOut" {
+   Resource "{ADBD3454B845561B}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_M151_gunner_backs_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Idle" {
+   Resource "{59E00FADFEA10661}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_idle_front_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Aimspace" {
+   Resource "{DB682AB4DBC0E66A}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceFront" {
+   Resource "{BC087DE916DBD94D}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_front_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceRight" {
+   Resource "{944BEF6D839B6866}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_right_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceFrontToRight" {
+   Resource "{98DA239D1E3FECF7}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_FrontToRight_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceRightToFront" {
+   Resource "{896BEC8446B371C2}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_RightToFront_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.IdleFront" {
+   Resource "{59E00FADFEA10661}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_idle_front_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.IdleRight" {
+   Resource "{71A39D296BE1B74A}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_idle_right_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionFrontToRight" {
+   Resource "{E3E2C4E745FC9912}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_FrontToRight_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionRightToFront" {
+   Resource "{F2530BFE1D700427}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_RightToFront_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceFrontToLeft" {
+   Resource "{45746089CE7F193A}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_FrontToLeft_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceLeftToFront" {
+   Resource "{F93C163AB63463BD}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_LeftToFront_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.IdleLeft" {
+   Resource "{2080A5433E66C091}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_idle_left_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionFrontToLeft" {
+   Resource "{7AB95B6F477D01AF}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_FrontToLeft_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionLeftToFront" {
+   Resource "{C6F12DDC3F367B28}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_LeftToFront_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceLeft" {
+   Resource "{0D30928BA1145446}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_left_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceRight02" {
+   Resource "{0AE8FF33327998D7}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_aimspace_right02.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceRight02ToRight" {
+   Resource "{6DAC2CE8F648C956}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_Right02ToRight_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceRightToRight02" {
+   Resource "{F59B7BE6074A1728}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_RightToRight02_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.IdleRight02" {
+   Resource "{BA22EFCDF18D7959}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_idle_right02_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionRight02ToRight" {
+   Resource "{A7B1A2A10CBE1654}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_Right02ToRight.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionRightToRight02" {
+   Resource "{3F86F5AFFDBCC82E}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_RightToRight02.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceLeft02" {
+   Resource "{A13C84C22938AA11}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_aimspace_left02.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceLeft02ToLeft" {
+   Resource "{3E5E4EB342A3F490}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_Left02ToLeft_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.AimspaceLeftToLeft02" {
+   Resource "{7F2DECE094C25AB5}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_aimspace_LeftToLeft02_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.IdleLeft02" {
+   Resource "{99B46F975D56F9A6}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_idle_left02_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionLeft02ToLeft" {
+   Resource "{D41F16D87241530B}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_Left02ToLeft.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionLeftToLeft02" {
+   Resource "{956CB48BA420FD30}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_LeftToLeft02.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Death" {
+   Resource "{74A55D9FEA372BB6}Assets/Vehicles/Wheeled/M151A2/anm/p_m151a2_passenger_death.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionFrontToRightLow" {
+   Resource "{16462876B463A499}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_FrontToRight_Low_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionRightToFrontLow" {
+   Resource "{741E2B43C60F12A4}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_RightToFront_Low_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionFrontToLeftLow" {
+   Resource "{4E2933DC9DDDAC9A}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_FrontToLeft_Low_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionLeft02ToLeftLow" {
+   Resource "{74E699F4E2090900}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_Left02ToLeft_Low.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionLeftToFrontLow" {
+   Resource "{4FE0DD4CCA6C3311}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m2_transition_LeftToFront_Low_m151a2.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionLeftToLeft02Low" {
+   Resource "{82D5A9831EB2AE4C}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_LeftToLeft02_Low.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionRight02ToRightLow" {
+   Resource "{4384EA6A9EC3F57F}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_Right02ToRight_Low.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.TransitionRightToRight02Low" {
+   Resource "{23F4DC73A45FEE70}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_gunner_transition_RightToRight02_Low.anm"
+  }
+  AnimSetInstanceSource_Line "Inertia.Default.SpineBrakeHardF" {
+   Resource "{7746199D4037B65F}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardF.anm"
+  }
+  AnimSetInstanceSource_Line "Inertia.Default.SpineBrakeSoft" {
+   Resource "{B8F3F974880C02B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_softF.anm"
+  }
+  AnimSetInstanceSource_Line "Inertia.Default.SpineBrakeHardL" {
+   Resource "{E610AEF7F65B488A}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardL.anm"
+  }
+  AnimSetInstanceSource_Line "Inertia.Default.SpineBrakeHardR" {
+   Resource "{171B96A385047D66}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardR.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Wobble" {
+   Resource "{BDC3E5964C68005E}Assets/Vehicles/Wheeled/M151A2/anm/p_M151_gunner_wobbling.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_FrontL_In" {
+   Resource "{D68A0069C707F71B}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_FrontL_in.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_FrontR_In" {
+   Resource "{6CADF4A08B10E034}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_FrontR_in.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_LoopL" {
+   Resource "{3986C3BA41AFD64D}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_L_Loop.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_Left02_In" {
+   Resource "{964EA47CD7C2B0C1}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_Left02_in.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_Left_In" {
+   Resource "{38DD80836D796D74}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_Left_in.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_LoopR" {
+   Resource "{3A064B0BCEA6ADDD}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_R_Loop.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_OutR" {
+   Resource "{53647898828B6F1E}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_R_Out.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_Right02_In" {
+   Resource "{DFF28655B61045EE}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_Right02_in.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_Right_In" {
+   Resource "{378157B2BEAD1FA4}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_Right_in.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_OutL" {
+   Resource "{3FAAD24916DD0E7A}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/Unconcious/p_m2_unconcious_M151_L_Out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetInL" {
+   Resource "{18E0204605850C5F}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_M151_gunner_left_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetInR" {
+   Resource "{A1E7BB4265A77CED}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_M151_gunner_right_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Fire" {
+   Resource "{1AE68F257BA9A6A0}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/p_m_m2_fire.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{59B892173DC84021}" {
+ }
+}

@@ -1,0 +1,198 @@
+Vehicle : "{607FD4A25F5BB871}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Cargo_01 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "hood_rear" "cargo_01"
+      }
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      VisibilityRange 5
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "cargo_01"
+      }
+      VisibilityRange 5
+      "Sort Priority" 9
+     }
+     PassengerPositionInfo EntitySlotInfo "{2668B026B49E11F5}" {
+      PivotID "cargo_01_idle"
+     }
+     SkipCharacterDoorAnimationsFromSeat 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 0.1
+     ContextName "cargo_01"
+     m_iCompartmentSection 1
+    }
+    CargoCompartmentSlot Cargo_02 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "hood_rear" "cargo_02"
+      }
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      VisibilityRange 5
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "cargo_02"
+      }
+      VisibilityRange 5
+      "Sort Priority" 9
+     }
+     PassengerPositionInfo EntitySlotInfo "{E9E6D5FC474196D8}" {
+      PivotID "cargo_02_idle"
+     }
+     SkipCharacterDoorAnimationsFromSeat 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 0.1
+     ContextName "cargo_02"
+     m_iCompartmentSection 1
+    }
+    CargoCompartmentSlot Cargo_03 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "hood_rear" "cargo_03"
+      }
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      VisibilityRange 5
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "cargo_03"
+      }
+      VisibilityRange 5
+      "Sort Priority" 9
+     }
+     PassengerPositionInfo EntitySlotInfo "{BF5DC4A0117BCB35}" {
+      PivotID "cargo_03_idle"
+     }
+     SkipCharacterDoorAnimationsFromSeat 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 0.1
+     ContextName "cargo_03"
+     m_iCompartmentSection 1
+    }
+    CargoCompartmentSlot Cargo_04 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "hood_rear" "cargo_04"
+      }
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      VisibilityRange 5
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D46E1FC958A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "cargo_04"
+      }
+      VisibilityRange 5
+      "Sort Priority" 9
+     }
+     PassengerPositionInfo EntitySlotInfo "{73A6ECB3E1ED3E9B}" {
+      PivotID "cargo_04_idle"
+     }
+     SkipCharacterDoorAnimationsFromSeat 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 0.1
+     ContextName "cargo_04"
+     m_iCompartmentSection 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Yoyota DJ78 Transport"
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{23867B26CFD29680}" {
+     UIInfo SCR_ActionContextUIInfo "{8EAED9171B0A47BD}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      m_sIconName "passenger"
+     }
+     ContextName "cargo_01"
+     Position PointInfo "{7A3D838FA80ECFDF}" {
+      PivotID "cargo_01_idle"
+     }
+     Radius 0.6
+     Omnidirectional 1
+    }
+    UserActionContext "{10A9541FA58A5EC7}" {
+     UIInfo SCR_ActionContextUIInfo "{10D3406C2C444E8B}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      m_sIconName "passenger"
+     }
+     ContextName "cargo_02"
+     Position PointInfo "{2DF589D091E7AC93}" {
+      PivotID "cargo_02_idle"
+     }
+     Radius 0.6
+     Omnidirectional 1
+    }
+    UserActionContext "{9A5D792D5D395C78}" {
+     UIInfo SCR_ActionContextUIInfo "{26BE594BD56C99B6}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      m_sIconName "passenger"
+     }
+     ContextName "cargo_03"
+     Position PointInfo "{BD6BB01A43F751CA}" {
+      PivotID "cargo_03_idle"
+     }
+     Radius 0.6
+     Omnidirectional 1
+    }
+    UserActionContext "{E6196CDEDCA80C3A}" {
+     UIInfo SCR_ActionContextUIInfo "{A185B41C11A398C7}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      m_sIconName "passenger"
+     }
+     ContextName "cargo_04"
+     Position PointInfo "{796311760D1213CC}" {
+      PivotID "cargo_04_idle"
+     }
+     Radius 0.6
+     Omnidirectional 1
+    }
+   }
+  }
+ }
+}

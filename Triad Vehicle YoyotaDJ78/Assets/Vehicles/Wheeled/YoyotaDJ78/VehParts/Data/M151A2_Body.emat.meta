@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7566A20EF3C5D1B9}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/M151A2_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

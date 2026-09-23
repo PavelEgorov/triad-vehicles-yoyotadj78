@@ -1,0 +1,8 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{AC00CE44D91A175C}Assets/Vehicles/Wheeled/YoyotaDJ78/Lights/YoyotaDJ78_bulb_turn_rear_L.xob"
+  }
+ }
+}

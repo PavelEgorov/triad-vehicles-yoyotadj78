@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{DAF29AF915F41D64}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_light_in.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "j79_base.blend"
+   SourceProfile "YoyotaDJ78_empty"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

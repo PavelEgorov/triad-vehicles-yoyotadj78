@@ -1,0 +1,11 @@
+MatPBRBasicGlass "{D09E052BCA98916B}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/windowglass.emat" {
+ Color 0.035 0.039 0.04 1
+ ZWrite 0
+ Sort translucent
+ AlphaMul 0.045
+ BlendMode AlphaBlend
+ RoughnessScale 0.08
+ MetalnessScale 0
+ FresnelPower 2
+ Backscatterig 0
+}

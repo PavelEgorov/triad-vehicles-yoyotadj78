@@ -1,0 +1,393 @@
+MetaFileClass {
+ Name "{15259A7EE81EE03F}Assets/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{69F335E965B5050E}" {
+     SourceMaterial "int_b"
+     AssignedMaterial "{187855D176DA54A1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_b.emat"
+    }
+    MaterialAssignClass "{69F335E965B505C5}" {
+     SourceMaterial "black"
+     AssignedMaterial "{C7AA0EFD02A2AAC1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/black.emat"
+    }
+    MaterialAssignClass "{69F335E965B505C0}" {
+     SourceMaterial "chrome"
+     AssignedMaterial "{1748BDFC3077CADB}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/chrome.emat"
+    }
+    MaterialAssignClass "{69F335E965B505C8}" {
+     SourceMaterial "carpaint"
+     AssignedMaterial "{BB808C977AB42CAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/carpaint.emat"
+    }
+    MaterialAssignClass "{69F335E965B50452}" {
+     SourceMaterial "09___Default"
+     AssignedMaterial "{00C291BFC9235E31}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/09___Default.emat"
+    }
+    MaterialAssignClass "{69F335E965B50455}" {
+     SourceMaterial "21___Default"
+     AssignedMaterial "{7A2E6FA4D70E3809}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/21___Default.emat"
+    }
+    MaterialAssignClass "{69F335E965B505AE}" {
+     SourceMaterial "wire"
+     AssignedMaterial "{06CA5592AC817E6E}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/wire.emat"
+    }
+    MaterialAssignClass "{69F335E965B50457}" {
+     SourceMaterial "interior_fourth"
+     AssignedMaterial "{CF8AB874764E300D}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/interior_fourth.emat"
+    }
+    MaterialAssignClass "{69F335E965B50597}" {
+     SourceMaterial "int_white"
+     AssignedMaterial "{2E15926EF3861235}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_white.emat"
+    }
+    MaterialAssignClass "{69F335E965B50595}" {
+     SourceMaterial "carpaint_second"
+     AssignedMaterial "{21698E27E395809B}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/carpaint_second.emat"
+    }
+    MaterialAssignClass "{69F335E965B5059B}" {
+     SourceMaterial "clearglass"
+     AssignedMaterial "{C08F4590346C0445}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/clearglass.emat"
+    }
+    MaterialAssignClass "{69F335E965B50599}" {
+     SourceMaterial "miroor"
+     AssignedMaterial "{6BC12211D9DEBAE5}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/miroor.emat"
+    }
+    MaterialAssignClass "{69F335E965B50586}" {
+     SourceMaterial "mirror"
+     AssignedMaterial "{63319433CA6B9E52}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/mirror.emat"
+    }
+    MaterialAssignClass "{69F335E965B50583}" {
+     SourceMaterial "interior_third"
+     AssignedMaterial "{92B5D7F60B04A14C}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/interior_third.emat"
+    }
+    MaterialAssignClass "{69F335E965B5058F}" {
+     SourceMaterial "int_red"
+     AssignedMaterial "{7D7BE27620F73BE4}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_red.emat"
+    }
+    MaterialAssignClass "{69F335E965B5046A}" {
+     SourceMaterial "int_green"
+     AssignedMaterial "{F7281101CDF7ACB3}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_green.emat"
+    }
+    MaterialAssignClass "{69F335E965B50589}" {
+     SourceMaterial "windowglass"
+     AssignedMaterial "{D09E052BCA98916B}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/windowglass.emat"
+    }
+    MaterialAssignClass "{69F335E965B50477}" {
+     SourceMaterial "white"
+     AssignedMaterial "{BEFF87FDA27A0A46}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/white.emat"
+    }
+    MaterialAssignClass "{69F61D7D215CAEA2}" {
+     SourceMaterial "seat_perf"
+     AssignedMaterial "{6BFF52D92231B9E1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/seat_perf.emat"
+    }
+    MaterialAssignClass "{69F335E965B50472}" {
+     SourceMaterial "gray"
+     AssignedMaterial "{BE91FD388FF5B107}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/gray.emat"
+    }
+    MaterialAssignClass "{69F335E965B50467}" {
+     SourceMaterial "yellow"
+     AssignedMaterial "{AC9196E96604DAD0}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/yellow.emat"
+    }
+    MaterialAssignClass "{69F335E965B50465}" {
+     SourceMaterial "red"
+     AssignedMaterial "{7E34072220D435F4}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/red.emat"
+    }
+    MaterialAssignClass "{69F335E965B50462}" {
+     SourceMaterial "int_r9a9e"
+     AssignedMaterial "{7AEF8F567705EC6F}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_r9a9e.emat"
+    }
+    MaterialAssignClass "{69F335E965B5046F}" {
+     SourceMaterial "int_blu"
+     AssignedMaterial "{C8C8A57C11FF09E8}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_blu.emat"
+    }
+    MaterialAssignClass "{69F335E965B5046D}" {
+     SourceMaterial "int_smawi"
+     AssignedMaterial "{85AAB9C02A153A03}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/int_smawi.emat"
+    }
+    MaterialAssignClass "{69F425ABA0B5D861}" {
+     SourceMaterial "interior_plastick"
+     AssignedMaterial "{2711D0DD8F488245}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/interior_plastick.emat"
+    }
+    MaterialAssignClass "{69F425ABA0B5D85A}" {
+     SourceMaterial "wood"
+     AssignedMaterial "{9F59048CDD44CF08}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/wood.emat"
+    }
+    MaterialAssignClass "{69F425ABA0B5D843}" {
+     SourceMaterial "seat"
+     AssignedMaterial "{5A50D741E5D74036}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/seat.emat"
+    }
+    MaterialAssignClass "{69F425ABA0B5D83F}" {
+     SourceMaterial "fuel_cap"
+     AssignedMaterial "{2CD30576CD8B2ECC}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/fuel_cap.emat"
+    }
+    MaterialAssignClass "{69F425ABA0B5D826}" {
+     SourceMaterial "interiar_ankaltar"
+     AssignedMaterial "{6D4881AD8709B0AC}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/interiar_ankaltar.emat"
+    }
+    MaterialAssignClass "{69F425ABA0B5D80E}" {
+     SourceMaterial "truck"
+     AssignedMaterial "{0501324530F780F5}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/truck.emat"
+    }
+    MaterialAssignClass "{689655629F6E3846}" {
+     SourceMaterial "j79_v2_screen"
+     AssignedMaterial "{022297298FCB4E36}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v2_screen.emat"
+    }
+    MaterialAssignClass "{F22C8777A26E1B50}" {
+     SourceMaterial "j79_v4_exterior_black"
+     AssignedMaterial "{21105980F64508B3}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_exterior_black.emat"
+    }
+    MaterialAssignClass "{8EFB7E5F84CC0187}" {
+     SourceMaterial "j79_v4_exterior_chrome"
+     AssignedMaterial "{814873B03CDE671E}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_exterior_chrome.emat"
+    }
+    MaterialAssignClass "{CBD853B03F2250BF}" {
+     SourceMaterial "j79_v4_exterior_step"
+     AssignedMaterial "{7F089AE7B4A8BBCF}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_exterior_step.emat"
+    }
+    MaterialAssignClass "{19DB9D4A1C5048A0}" {
+     SourceMaterial "j79_v4_exterior_molding"
+     AssignedMaterial "{5A4D9FF3F6C3C550}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_exterior_molding.emat"
+    }
+    MaterialAssignClass "{A139F74BF8C0B198}" {
+     SourceMaterial "j79_radiator"
+     AssignedMaterial "{81B9D7AD4A84F77A}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_radiator.emat"
+    }
+   }
+   MeshParams {
+    MeshParam body {
+    }
+    MeshParam seat_codriver {
+    }
+    MeshParam seat_driver {
+    }
+    MeshParam steering_wheel {
+    }
+    MeshParam hazard_button {
+    }
+    MeshParam needle_fuel {
+    }
+    MeshParam needle_rpm {
+    }
+    MeshParam needle_speed {
+    }
+    MeshParam needle_temp {
+    }
+    MeshParam battery {
+    }
+    MeshParam engine {
+    }
+    MeshParam fuel_cap {
+    }
+    MeshParam fuel_cap_cab {
+    }
+    MeshParam fuel_tank {
+    }
+    MeshParam gearbox {
+    }
+    MeshParam gearshift {
+    }
+    MeshParam handbrake {
+    }
+    MeshParam headlight_switch {
+    }
+    MeshParam interior_mirror {
+    }
+    MeshParam light_switch {
+    }
+    MeshParam needle_battery {
+    }
+    MeshParam needle_oil {
+    }
+    MeshParam pedal_brake {
+    }
+    MeshParam pedal_clutch {
+    }
+    MeshParam pedal_throttle {
+    }
+    MeshParam starter_switch {
+    }
+    MeshParam tube {
+    }
+    MeshParam wiper_L {
+    }
+    MeshParam wiper_R {
+    }
+    MeshParam wiper_switch {
+    }
+    MeshParam door_FL {
+    }
+    MeshParam door_FR {
+    }
+    MeshParam mirror_FL {
+    }
+    MeshParam mirror_FR {
+    }
+    MeshParam trunk {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_FG_Battery {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{5D38201F93B9DE65}Common/Materials/Game/VehicleParts/vehicle_battery.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Body_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Body_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Engine {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_FuelTank {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Gearbox {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_L01 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_L02 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_R01 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_R02 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MainCol_01 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MainCol_02 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MainCol_03 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MainCol_04 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MainCol_05 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MainCol_06 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MainCol_07 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{69D83D4A688D43BC}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.16 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{69D83D4A688D40FB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{69D83D4A688D4759}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{69D83D4A688D47B0}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{69D83D4A688D4634}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{69D83D4A688D46DC}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

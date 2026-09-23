@@ -1,0 +1,9 @@
+$animExportProfile {
+ $tracks {
+   "Scene_Root"         ""                   "TRA"
+   "gunner_front_getIn" "Scene_Root"         "RA"
+   "gunner_idle"        "Scene_Root"         "RA"
+   "v_turret_roof"      "Scene_Root"         "RA"
+  
+ }
+}

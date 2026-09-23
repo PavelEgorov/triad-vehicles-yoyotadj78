@@ -1,0 +1,108 @@
+Vehicle : "{434A8DA182DBE213}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     PivotID "v_wheel_L01"
+     Prefab "{D8C3D8657B896B04}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/YoyotaDJ78_wheel_base.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 0
+    }
+    RegisteringComponentSlotInfo Frame_roof {
+     PivotID "v_frame_roof"
+     MergePhysics 1
+     Enabled 0
+     Prefab "{F6E0D4A62A1EE91F}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     PivotID "v_wheel_L02"
+     Prefab "{D8C3D8657B896B04}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/YoyotaDJ78_wheel_base.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 2
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     PivotID "v_wheel_R01"
+     Angles 0 180 0
+     Prefab "{D8C3D8657B896B04}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/YoyotaDJ78_wheel_base.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 1
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     PivotID "v_wheel_R02"
+     Angles 0 180 0
+     Prefab "{D8C3D8657B896B04}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/Wheels/YoyotaDJ78_wheel_base.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 3
+    }
+    EntitySlotInfo glass_fl {
+     PivotID "v_door_L01"
+     ChildPivotID "snap_glass"
+     Prefab "{7F95B01EA31A0176}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_FL.et"
+    }
+    EntitySlotInfo glass_fr {
+     PivotID "v_door_R01"
+     ChildPivotID "snap_glass"
+     Prefab "{028D5CE6C6893DEF}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_FR.et"
+    }
+    EntitySlotInfo glass_forward {
+     Prefab "{9C28AD994321591D}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_forward.et"
+    }
+    EntitySlotInfo glass_back {
+     Prefab "{BDCE36C742A08C73}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_back.et"
+    }
+    EntitySlotInfo glass_dashlens {
+     Prefab "{97D5C9BBC898BA96}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_dashlens.et"
+    }
+    EntitySlotInfo glass_marker_side_l {
+     Prefab "{81638172A0FC5781}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_marker_side_L.et"
+    }
+    EntitySlotInfo glass_marker_side_r {
+     Prefab "{FC7B6D8AC56F6B18}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_marker_side_R.et"
+    }
+    EntitySlotInfo light_headlight_l {
+     PivotID "v_light_headlight_l"
+     Prefab "{7E717CC2DADA290D}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_headlight_L.et"
+    }
+    EntitySlotInfo light_headlight_r {
+     PivotID "v_light_headlight_r"
+     Prefab "{0369903ABF491594}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_headlight_R.et"
+    }
+    EntitySlotInfo light_fog_l {
+     PivotID "v_light_fog_l"
+     Prefab "{8FCB157EB5907C3D}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_fog_L.et"
+    }
+    EntitySlotInfo light_fog_r {
+     PivotID "v_light_fog_r"
+     Prefab "{F2D3F986D00340A4}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_fog_R.et"
+    }
+    EntitySlotInfo light_rear_l {
+     PivotID "v_light_rear_l"
+     Prefab "{6604775C73983959}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_rear_L.et"
+    }
+    EntitySlotInfo light_rear_r {
+     PivotID "v_light_rear_r"
+     Prefab "{1B1C9BA4160B05C0}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_rear_R.et"
+    }
+    EntitySlotInfo light_side_l {
+     PivotID "v_light_side_l"
+     Prefab "{27BA685B284EE9DE}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_side_L.et"
+    }
+    EntitySlotInfo light_side_r {
+     PivotID "v_light_side_r"
+     Prefab "{5AA284A34DDDD547}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_side_R.et"
+    }
+   }
+  }
+ }
+}

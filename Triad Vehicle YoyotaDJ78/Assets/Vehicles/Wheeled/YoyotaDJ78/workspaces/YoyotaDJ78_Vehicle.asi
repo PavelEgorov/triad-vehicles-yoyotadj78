@@ -1,0 +1,274 @@
+AnimSetInstanceSource "{4A79000000000010}" {
+ Template "{C6A5B22C2528E207}Assets/Vehicles/Wheeled/YoyotaDJ78/workspaces/YoyotaDJ78.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Idle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.HeadLook" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIdle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousDeath" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_In" {
+   Resource "{61624A93931AB3A3}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_in_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_Out" {
+   Resource "{046C7FED702F3ADE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_out_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_In" {
+   Resource "{31CE48A5EF67B1CE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_in_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out" {
+   Resource "{22474202B6E93C73}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out_Back" {
+   Resource "{22474202B6E93C73}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Idle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.HeadLook" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIdle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousDeath" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_In" {
+   Resource "{84CC6602398074C7}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_in_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_Out" {
+   Resource "{41067FC3FBDDDAAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_out_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_In" {
+   Resource "{74A4488B649551BE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_in_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out" {
+   Resource "{9981E93209CDB710}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out_Back" {
+   Resource "{9981E93209CDB710}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousDeath" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_In" {
+   Resource "{61624A93931AB3A3}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_in_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_Out" {
+   Resource "{046C7FED702F3ADE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_out_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_In" {
+   Resource "{31CE48A5EF67B1CE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_in_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out" {
+   Resource "{22474202B6E93C73}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out_Back" {
+   Resource "{22474202B6E93C73}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousDeath" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_In" {
+   Resource "{84CC6602398074C7}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_in_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_Out" {
+   Resource "{41067FC3FBDDDAAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_out_openDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_In" {
+   Resource "{74A4488B649551BE}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_in_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out" {
+   Resource "{9981E93209CDB710}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out_Back" {
+   Resource "{9981E93209CDB710}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_codriver_out_closeDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.HeadLook" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIdle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousDeath" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.HeadLook" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIn" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousOut" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIdle" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousDeath" {
+   Resource "{2CA1BABF8B92C9FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{B5B843982B9B7573}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_steering_poses.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
+   Resource "{B5B843982B9B7573}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_steering_poses.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Throttle" {
+   Resource "{ABA0079FE705C7DF}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_throttle.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Brake" {
+   Resource "{A5357D6597C911CA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_brake.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Clutch" {
+   Resource "{DD0425FDEA150314}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_clutch.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.ShiftGear" {
+   Resource "{F16A8DCA8262275C}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_gear_shift.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeIn" {
+   Resource "{7133545F493372A6}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_handbrake_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeLoop" {
+   Resource "{6E33048E90E0B129}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_handbrake_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOn" {
+   Resource "{CCE306D836286EB8}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_handbrake_on.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOut" {
+   Resource "{85B65DEDBF8F0053}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_handbrake_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeoff" {
+   Resource "{970E983A623AF942}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_handbrake_off.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOn" {
+   Resource "{DAF29AF915F41D64}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_light_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOff" {
+   Resource "{2B8F0138C2AA3F4B}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_light_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornIn" {
+   Resource "{408D8A4A2463F6A7}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_horn_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornLoop" {
+   Resource "{D3DF206BF7C3B9F1}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_horn_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornOut" {
+   Resource "{D3DF206BF7C3B9F1}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_horn_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartIn" {
+   Resource "{B84AAFFD7896CABB}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_engine_on_start.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartLoop" {
+   Resource "{CDBBCB3F7005E2A1}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_engine_on_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOut" {
+   Resource "{42B70881A20CC7E2}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_engine_on_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOutOff" {
+   Resource "{42B70881A20CC7E2}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_engine_on_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStop" {
+   Resource "{AF8DB8BB187208FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/v_YoyotaDJ78_driver_engine_off.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{4A79000000000042}" {
+ }
+}

@@ -1,0 +1,28 @@
+$animExportProfile {
+ $tracks {
+  "Scene_Root" "" "TRA"
+  "Armature" "Scene_Root" "RA"
+  "v_root" "Armature" "RA"
+  "v_body" "v_root" "RA"
+  "v_steering_wheel" "v_body" "RA"
+  "v_door_L01" "v_body" "RA"
+  "v_mirror_L01" "v_door_L01" "RA"
+  "v_door_R01" "v_body" "RA"
+  "v_slot_glass_fr" "v_door_R01" "RA"
+  "v_door_R01_handle" "v_door_R01" "RA"
+  "v_mirror_R01" "v_door_R01" "RA"
+  "v_trunk" "v_body" "RA"
+  "v_axle_01" "v_body" "RA"
+  "v_suspension_L01" "v_axle_01" "RA"
+  "v_rotator_L01" "v_suspension_L01" "RA"
+  "v_wheel_L01" "v_rotator_L01" "RA"
+  "v_suspension_R01" "v_axle_01" "RA"
+  "v_rotator_R01" "v_suspension_R01" "RA"
+  "v_wheel_R01" "v_rotator_R01" "RA"
+  "v_axle_02" "v_body" "RA"
+  "v_suspension_L02" "v_axle_02" "RA"
+  "v_wheel_L02" "v_suspension_L02" "RA"
+  "v_suspension_R02" "v_axle_02" "RA"
+  "v_wheel_R02" "v_suspension_R02" "RA"
+ }
+}

@@ -1,0 +1,10 @@
+MatPBRBasicGlass "{C08F4590346C0445}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/clearglass.emat" {
+ Color 0.588 0.588 0.588 1
+ Sort translucent
+ SpecularMul 0.6
+ AlphaMul 0.25
+ BlendMode AlphaBlend
+ RoughnessScale 0.1
+ DetailNormalPower 0.35
+ DetailNormalMap "{CE5A452F50A95045}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v3_optics_clear_NMO.edds"
+}

@@ -1,0 +1,25 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{DB2668190EB0A349}Assets/Vehicles/Wheeled/YoyotaDJ78/Lights/YoyotaDJ78_rear_R.xob"
+  }
+  SlotManagerComponent "{69F33CF39B4E2077}" {
+   Slots {
+    EmissiveGlassSlot glass_break {
+     PivotID "snap_glass_brake"
+     Prefab "{093809D45A5E14C1}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_tail_brake_R.et"
+    }
+    EmissiveGlassSlot glass_revers {
+     PivotID "snap_glass_reverse"
+     Prefab "{1B97C4F8F269F7F4}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_tail_reverse_R.et"
+    }
+    EmissiveGlassSlot glass_turn {
+     PivotID "snap_glass_turn"
+     Prefab "{3ABF2F93A203D1F5}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Dstr/YoyotaDJ78_glass_tail_turn_R.et"
+    }
+   }
+  }
+ }
+ coords 3048.722 12.132 2895.939
+}

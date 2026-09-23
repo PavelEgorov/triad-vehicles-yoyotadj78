@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9B04D8F1AF8A05E9}Assets/Vehicles/Wheeled/YoyotaDJ78/workspaces/YoyotaDJ78_Gunner.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass PS5 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

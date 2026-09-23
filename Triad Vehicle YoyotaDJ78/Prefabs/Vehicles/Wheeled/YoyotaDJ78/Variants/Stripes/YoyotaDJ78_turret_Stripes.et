@@ -1,0 +1,19 @@
+Vehicle : "{49256CFDDC33BBD4}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_turret.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{4AF34280EE8746C6}" {
+     SourceMaterial "carpaint"
+     AssignedMaterial "{CE4E7F0B1D1D013E}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Stripes/YoyotaDJ78_stripes_carpaint.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Yoyota DJ78 Turret - Stripes"
+    m_Image "{4C5238E43D9278D1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Stripes/YoyotaDJ78_Stripes_turret_BCR.edds"
+   }
+  }
+ }
+}

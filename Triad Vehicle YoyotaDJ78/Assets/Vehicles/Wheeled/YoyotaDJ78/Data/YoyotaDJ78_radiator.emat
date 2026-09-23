@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{8DD00AD47C84A630}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_radiator_BCR.edds"
+ NMOMap "{B508B146A5F3F4AE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_radiator_NMO.edds"
+ UVSrcGlobalMaps "UV set 2"
+}

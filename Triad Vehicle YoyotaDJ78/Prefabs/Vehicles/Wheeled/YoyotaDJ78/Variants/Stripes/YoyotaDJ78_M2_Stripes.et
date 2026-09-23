@@ -1,0 +1,19 @@
+Vehicle : "{5BA9B0DB09C8EB83}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_M2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{F3953D276DF944AC}" {
+     SourceMaterial "carpaint"
+     AssignedMaterial "{CE4E7F0B1D1D013E}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Stripes/YoyotaDJ78_stripes_carpaint.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Yoyota DJ78 M2 - Stripes"
+    m_Image "{2929CF3014F71F85}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Stripes/YoyotaDJ78_Stripes_M2_BCR.edds"
+   }
+  }
+ }
+}

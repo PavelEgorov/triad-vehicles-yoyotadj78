@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2CD30576CD8B2ECC}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/fuel_cap.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

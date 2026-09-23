@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2B8CDA2C7439D7F8}Assets/Vehicles/Wheeled/YoyotaDJ78/Lights/Data/wire.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

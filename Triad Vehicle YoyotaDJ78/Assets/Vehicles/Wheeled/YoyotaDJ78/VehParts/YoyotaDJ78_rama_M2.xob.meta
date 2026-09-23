@@ -1,0 +1,79 @@
+MetaFileClass {
+ Name "{AA3BF90D881C07AF}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama_M2.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportMorphs 1
+   GenerateDefaultProfile 1
+   ExportSceneHierarchy 1
+   Animated 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A6542A653BA7463}" {
+     SourceMaterial "black"
+     AssignedMaterial "{42BB0992BFC64D14}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/black.emat"
+    }
+    MaterialAssignClass "{6A6542A653BA747E}" {
+     SourceMaterial "carpaint"
+     AssignedMaterial "{6D2C50E0FCF6ABE2}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/carpaint.emat"
+    }
+    MaterialAssignClass "{6A6542A653BA747A}" {
+     SourceMaterial "chrome"
+     AssignedMaterial "{FB76B02F8E0AB15A}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/chrome.emat"
+    }
+    MaterialAssignClass "{6A6542A653BA7478}" {
+     SourceMaterial "wire"
+     AssignedMaterial "{2DD6498A8AFB6200}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/wire.emat"
+    }
+    MaterialAssignClass "{6A6542A44E164C43}" {
+     SourceMaterial "fuel/cap"
+     AssignedMaterial "{FA7FD9014BC9A980}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/fuel_cap.emat"
+    }
+    MaterialAssignClass "{6A6C098378681074}" {
+     SourceMaterial "metal"
+     AssignedMaterial "{636BA8733E31EB2D}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/metal.emat"
+    }
+   }
+   MeshParams {
+    MeshParam rama_m2 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_FG_rama_M2 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6A6538DC81A450FC}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.16 LTS"
+   "Modify material names" 1
+   LegacySupport 1
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A6538DC81A412C7}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A6538DC81A4107C}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A6538DC81A410D0}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A6538DC81A41795}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A6538DC81A41D7E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

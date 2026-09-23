@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2694AD5FEF3EF4AF}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_throttle.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleCar_01 (BI sample) -> j79"
+   SourceProfile "Vehicles_Throttle"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

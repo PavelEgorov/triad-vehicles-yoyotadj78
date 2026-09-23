@@ -1,0 +1,4 @@
+MatPBRBasic "{FA7FD9014BC9A980}Assets/Vehicles/Wheeled/YoyotaDJ78/VehParts/Data/fuel_cap.emat" {
+ BCRMap "{31357A6157821545}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_field_matteblack_BCR.edds"
+ NMOMap "{09EDC1F38EF547DB}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_field_matteblack_NMO.edds"
+}

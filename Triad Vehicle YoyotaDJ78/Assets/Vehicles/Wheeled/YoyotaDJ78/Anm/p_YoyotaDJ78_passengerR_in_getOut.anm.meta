@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{92A2A160F429C9DF}Assets/Vehicles/Wheeled/YoyotaDJ78/Anm/p_YoyotaDJ78_passengerR_in_getOut.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

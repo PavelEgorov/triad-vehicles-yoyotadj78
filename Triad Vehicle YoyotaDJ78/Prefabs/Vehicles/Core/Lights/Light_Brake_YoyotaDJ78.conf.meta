@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{31596251CCDC88C7}Prefabs/Vehicles/Core/Lights/Light_Brake_YoyotaDJ78.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

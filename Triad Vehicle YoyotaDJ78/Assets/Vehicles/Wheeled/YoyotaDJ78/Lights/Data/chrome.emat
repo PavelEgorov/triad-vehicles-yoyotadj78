@@ -1,0 +1,4 @@
+MatPBRBasic "{E660E41D1D363881}Assets/Vehicles/Wheeled/YoyotaDJ78/Lights/Data/chrome.emat" {
+ BCRMap "{A9E461B298ED0776}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v3_optics_reflector_BCR.edds"
+ NMOMap "{913CDA20419A55E8}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v3_optics_reflector_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{27BA685B284EE9DE}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_side_L.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

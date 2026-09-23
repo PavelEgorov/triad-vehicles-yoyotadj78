@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8FCB157EB5907C3D}Prefabs/Vehicles/Wheeled/YoyotaDJ78/Light/YoyotaDJ78_fog_L.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
