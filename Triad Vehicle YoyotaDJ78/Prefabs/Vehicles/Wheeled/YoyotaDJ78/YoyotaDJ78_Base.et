@@ -429,7 +429,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     PilotCompartmentSlot PilotCompartment {
      CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
       ParentContextList {
-       "driver"
+       "door_l01"
       }
       VisibilityRange 1.5
       "Sort Priority" 1
@@ -479,7 +479,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     CargoCompartmentSlot Passenger_r01 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
      CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
       ParentContextList {
-       "passenger_r01"
+       "door_r01"
       }
       UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" : "{DE16A921564FEEE1}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetInPassenger.conf" {
       }
@@ -866,7 +866,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       Wheel Wheel "{4D8B26DFFE211745}" {
        Radius 0.421
        Mass 30
-       BrakeTorque 2200
+       BrakeTorque 3580
       }
       Tyre Tyre "{4D8B26DFFD85E58F}" : "{2C1430765C6F5FD4}Prefabs/Vehicles/Wheeled/M998/Configs/VehicleSimulationTire_M998.conf" {
       }
@@ -894,7 +894,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       Wheel Wheel "{4D8B26DF30A4E4D7}" {
        Radius 0.421
        Mass 30
-       BrakeTorque 1200
+       BrakeTorque 2930
       }
       Tyre Tyre "{4D8B26DF33F76974}" : "{2C1430765C6F5FD4}Prefabs/Vehicles/Wheeled/M998/Configs/VehicleSimulationTire_M998.conf" {
       }
@@ -956,13 +956,13 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
      SteeringForwardSpeed {
-      0 26 2 23 16 29 40 26 60 20 80 12 100 3
+      0 26 2 23 16 29 40 26 60 20 80 20 120 10 160 4
      }
      SteeringBackwardSpeed {
-      0 26 2 23 16 38 40 45 60 43 80 38 100 28
+      0 26 2 23 16 38 40 45 60 43 80 36 120 18 160 7
      }
      SteeringCenterSpeed {
-      2 0 16 14 40 25 60 28
+      2 0 16 14 40 25 60 28 80 16 120 8 160 3
      }
      ReverseCurve {
       800 0.8 1100 0.5 1400 0
