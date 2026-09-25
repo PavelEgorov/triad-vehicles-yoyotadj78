@@ -20,7 +20,8 @@ Vehicle : "{607FD4A25F5BB871}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78.et" 
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Gunner {
-     Offset 0 0.02 0
+     PivotID "v_turret_bed"
+     Offset 0 -0.9 0.5
      MergePhysics 1
      Prefab "{3B30B8AAC9629474}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_gun_mount_M2HB.et"
      DeactivatePhysicsOnAtaching 1
