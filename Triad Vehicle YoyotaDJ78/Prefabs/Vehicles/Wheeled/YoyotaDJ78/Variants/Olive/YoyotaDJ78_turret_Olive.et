@@ -11,7 +11,7 @@ Vehicle : "{49256CFDDC33BBD4}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_turr
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "Yoyota DJ78 Turret - Olive"
+    Name "#TriadYoyotaDJ78-EditableEntity_YoyotaDJ78_turret_Olive_Name"
     m_Image "{0D38801F960822FA}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Olive/YoyotaDJ78_olive_turret_BCR.edds"
    }
   }

@@ -9,8 +9,62 @@ GameProject {
   GameProjectConfig PC {
    WidgetManagerSettings WidgetManagerSettings "{4A79000000000071}" {
     StringTables {
-     StringTableDefinition "{4A79000000000072}" {
+     StringTableDefinition "{6A761575107D58A3}" {
       StringTableSource "{91E0F6253032266E}Language/localization.st"
+      Languages {
+       LanguageDefinition "{6A7615751DBBC647}" {
+        Code "cs_cz"
+        StringTableRuntime "{604E5B9F63FF3116}Language/localization.cs_cz.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC684}" {
+        Code "de_de"
+        StringTableRuntime "{C038D7CD5672761B}Language/localization.de_de.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC556}" {
+        Code "en_us"
+        StringTableRuntime "{8A5BAAA713D03BB9}Language/localization.en_us.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC533}" {
+        Code "es_es"
+        StringTableRuntime "{970EF7B81F10521B}Language/localization.es_es.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC513}" {
+        Code "fr_fr"
+        StringTableRuntime "{89D063A9F880F546}Language/localization.fr_fr.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC5EC}" {
+        Code "it_it"
+        StringTableRuntime "{49E95C8A55D3FC88}Language/localization.it_it.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC5CA}" {
+        Code "ja_jp"
+        StringTableRuntime "{58E850D48528998B}Language/localization.ja_jp.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC5AC}" {
+        Code "ko_kr"
+        StringTableRuntime "{F41E9BAE66572770}Language/localization.ko_kr.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC581}" {
+        Code "pl_pl"
+        StringTableRuntime "{008E7E81F2298F03}Language/localization.pl_pl.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC46E}" {
+        Code "pt_br"
+        StringTableRuntime "{DE8844D9E0DA0517}Language/localization.pt_br.conf"
+       }
+       LanguageDefinition "{6A7615751DBBC426}" {
+        Code "ru_ru"
+        StringTableRuntime "{474FA8924BCF1729}Language/localization.ru_ru.conf"
+       }
+       LanguageDefinition "{6A7615751DBBCAE7}" {
+        Code "uk_ua"
+        StringTableRuntime "{DA81CCF4FF4BB639}Language/localization.uk_ua.conf"
+       }
+       LanguageDefinition "{6A7615751DBBCAB5}" {
+        Code "zh_cn"
+        StringTableRuntime "{2CE8F07F83E6D89D}Language/localization.zh_cn.conf"
+       }
+      }
      }
     }
    }

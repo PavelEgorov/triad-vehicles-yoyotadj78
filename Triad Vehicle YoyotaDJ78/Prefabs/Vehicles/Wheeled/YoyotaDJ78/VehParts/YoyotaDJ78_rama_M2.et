@@ -17,6 +17,15 @@ Turret : "{F6E0D4A62A1EE91F}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaD
      }
     }
    }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "default" "hood_rear"
+      }
+     }
+    }
+   }
   }
   SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
    LimitsHoriz -45 45

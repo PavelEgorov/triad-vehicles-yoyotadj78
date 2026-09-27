@@ -11,7 +11,7 @@ Vehicle : "{49256CFDDC33BBD4}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_turr
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "Yoyota DJ78 Turret - Desert Mud"
+    Name "#TriadYoyotaDJ78-EditableEntity_YoyotaDJ78_turret_Desert_Name"
     m_Image "{49B0F6889F42FFF8}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Desert/YoyotaDJ78_desert_turret_BCR.edds"
    }
   }

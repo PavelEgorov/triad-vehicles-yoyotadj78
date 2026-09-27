@@ -3,13 +3,48 @@ Vehicle : "{5BA9B0DB09C8EB83}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_M2.e
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "Yoyota DJ78 PKM"
+    Name "#TriadYoyotaDJ78-EditableEntity_YoyotaDJ78_PKM_Name"
+    m_Image "{4DB8B0809A9C8541}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_PKM_BCR.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69F8315180A8F176}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 3
+    }
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Frame_roof {
-     Prefab "{9F1ECC76C15FA330}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama_PKM.et"
+     Prefab "{ECC4203430448757}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_rama_PKM.et"
+    }
+    RegisteringComponentSlotInfo PKM {
+     PivotID "v_frame_roof"
+     Offset 0 1.22 0.095
+     MergePhysics 1
+     Prefab "{6CFAA6D4D6F4D512}Prefabs/Vehicles/Wheeled/YoyotaDJ78/VehParts/YoyotaDJ78_weapon_mount_6T5_PKM.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{677D6F08E4E64946}" {
+     ContextName "gunner_position"
+     Position PointInfo "{7E7677D950B845CB}" {
+      Offset 0 1.376 -0.408
+     }
+     Radius 0.9
+     Omnidirectional 1
     }
    }
   }

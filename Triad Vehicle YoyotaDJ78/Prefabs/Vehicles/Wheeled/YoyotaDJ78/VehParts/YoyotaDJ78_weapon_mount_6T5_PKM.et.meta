@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6CFAA6D4D6F4D512}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/WeapMounts/YoyotaDJ78_weapon_mount_6T5_PKM.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

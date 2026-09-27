@@ -545,7 +545,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "Yoyota DJ78"
+    Name "#TriadYoyotaDJ78-EditableEntity_YoyotaDJ78_Name"
     Icon "{98682B2FC86F87A4}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Civilian.edds"
     m_Image "{8FC972B17827541C}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_BCR.edds"
     m_sFaction "CIV"
@@ -652,8 +652,8 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
    }
   }
   SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" : "{3D4D6B80EF015627}Prefabs/Vehicles/Core/Components/Vehicle_UniInvStorage_base.ct" {
-   MaxCumulativeVolume 50000
-   MaxItemSize 50 200 50
+   MaxCumulativeVolume 1000000
+   MaxItemSize 200 200 200
    MultiSlots {
     MultiSlotConfiguration "{69D844825FBEDBB3}" {
      SlotTemplate InventoryStorageSlot Bandages {
@@ -662,7 +662,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      NumSlots 2
     }
    }
-   m_fMaxWeight 400
+   m_fMaxWeight 5000
   }
   SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
    m_fHeight 0.25
@@ -826,7 +826,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     Engine Engine Engine {
      Inertia 0.9
      MaxPower 96
-     MaxTorque 285
+     MaxTorque 343
      RpmMaxPower 3800
      RpmMaxTorque 2200
      Steepness 35
@@ -836,7 +836,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Output "Clutch"
     }
     Clutch Clutch Clutch {
-     MaxClutchTorque 400
+     MaxClutchTorque 453
     }
     Gearbox Gearbox Gearbox {
      Forward {
@@ -969,8 +969,10 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
      ClutchUncoupleRpm 1000
      Latency 0.3
-     UpShiftRpm 1170
-     DownShiftRpm 450
+     UpShiftRpm 1485
+     UpShiftFactor 1.9
+     DownShiftRpm 1265
+     DownShiftFactor 1.4
     }
    }
   }

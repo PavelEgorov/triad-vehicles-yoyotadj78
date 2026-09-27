@@ -11,7 +11,7 @@ Vehicle : "{607FD4A25F5BB871}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78.et" 
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "Yoyota DJ78 - Olive"
+    Name "#TriadYoyotaDJ78-EditableEntity_YoyotaDJ78_Olive_Name"
     m_Image "{79BB96853ABE9942}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Olive/YoyotaDJ78_olive_BCR.edds"
    }
   }

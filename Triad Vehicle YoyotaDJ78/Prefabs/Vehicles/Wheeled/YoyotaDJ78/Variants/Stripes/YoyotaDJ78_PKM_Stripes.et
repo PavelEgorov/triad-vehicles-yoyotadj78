@@ -1,0 +1,19 @@
+Vehicle : "{52D23EA9EC364F13}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_PKM.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A7576A8995FC0DB}" {
+     SourceMaterial "carpaint"
+     AssignedMaterial "{CE4E7F0B1D1D013E}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Stripes/YoyotaDJ78_stripes_carpaint.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TriadYoyotaDJ78-EditableEntity_YoyotaDJ78_PKM_Stripes_Name"
+    m_Image "{75E6B8611ABDC082}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Stripes/j79_Stripes_PKM_BCR.edds"
+   }
+  }
+ }
+}

@@ -11,7 +11,7 @@ Vehicle : "{8348192B26F6C590}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_tran
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "Yoyota DJ78 Transport - Tan"
+    Name "#TriadYoyotaDJ78-EditableEntity_YoyotaDJ78_transport_Tan_Name"
     m_Image "{AC302D93D732AB3A}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Tan/YoyotaDJ78_tan_BCR.edds"
    }
   }

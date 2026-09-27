@@ -7,6 +7,11 @@ Turret : "{8BBB4EEDF8E30C32}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_M2H
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    CompartmentSlots {
     TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "FrontGunner" "wheel_spare" "LeftGunner" "RightGunner" "hood_rear"
+      }
+     }
      m_iCompartmentSection 1
     }
    }
