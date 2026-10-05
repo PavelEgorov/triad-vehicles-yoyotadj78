@@ -429,7 +429,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     PilotCompartmentSlot PilotCompartment {
      CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
       ParentContextList {
-       "door_l01"
+       "door_l01" "driver"
       }
       VisibilityRange 1.5
       "Sort Priority" 1
@@ -479,7 +479,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     CargoCompartmentSlot Passenger_r01 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
      CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
       ParentContextList {
-       "door_r01"
+       "door_r01" "passenger_r01"
       }
       UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" : "{DE16A921564FEEE1}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetInPassenger.conf" {
       }
@@ -526,7 +526,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
      PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
       PivotID "codriver_idle"
-      Offset 0.1528 0 0
+      Offset 0.1528 0 -0.189
      }
      SeatType 1
      DoorInfoList {
@@ -1157,8 +1157,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{69D844825FBEDADD}" {
       PivotID "driver_idle"
      }
-     Radius 0.7
-     Omnidirectional 1
+     Radius 0.35
     }
     UserActionContext "{69D844825FBEDADC}" {
      UIInfo SCR_ActionContextUIInfo "{610A7E94319A5074}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
@@ -1166,9 +1165,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      ContextName "passenger_r01"
      Position PointInfo "{69D844825FBEDADB}" {
       PivotID "codriver_idle"
+      Offset 0.1528 0 -0.189
      }
-     Radius 0.7
-     Omnidirectional 1
+     Radius 0.35
     }
     UserActionContext "{69D844825FBEDAC5}" {
      UIInfo SCR_ActionContextUIInfo "{610A7E9406F7938A}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
