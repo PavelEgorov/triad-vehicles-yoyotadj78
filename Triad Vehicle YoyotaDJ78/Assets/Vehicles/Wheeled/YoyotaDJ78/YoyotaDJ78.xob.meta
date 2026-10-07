@@ -152,6 +152,10 @@ MetaFileClass {
      SourceMaterial "j79_radiator"
      AssignedMaterial "{81B9D7AD4A84F77A}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_radiator.emat"
     }
+    MaterialAssignClass "{A6BC420910A8AF02}" {
+     SourceMaterial "yotota_rear_metal"
+     AssignedMaterial "{7ADCA2E100CA5B74}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_rear_metal.emat"
+    }
    }
    MeshParams {
     MeshParam body {

@@ -4,7 +4,25 @@ MatPBRBasicGlass "{F893A61D289BD217}Assets/Vehicles/Wheeled/YoyotaDJ78/Dstr/Data
  SpecularMul 0.6
  AlphaMul 0.25
  BlendMode AlphaBlend
- RoughnessScale 0.1
- DetailNormalPower 0.35
- DetailNormalMap "{CE5A452F50A95045}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v3_optics_clear_NMO.edds"
+ RoughnessScale 0.3
+ DetailNormalPower 0.035
+ DetailNormalMap "{7E9A15F454E44987}Assets/_SharedData/Metal/ST_Scratches_03_N.edds"
+ DirtLayerSharpness 0.2
+ DirtColor 0.06 0.054 0.044 1
+ DirtRoughness 1.2
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ VFXMap "{5EF961FEABAFCE58}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_exterior_chrome_VFX.edds"
+ MetalnessScale 0
+ DirtOpacity 0.4
+ DirtUVTransform MatUVTransform "{988709AB69AF27E0}" {
+  TilingU 2
+  TilingV 2
+ }
+ NMOMap "{CE5A452F50A95045}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v3_optics_clear_NMO.edds"
+ NormalPower 0.35
+ DetailNormalMapUVTransform MatUVTransform "{A07F62B31F014161}" {
+  TilingU 4
+  TilingV 4
+ }
 }

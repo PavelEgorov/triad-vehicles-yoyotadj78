@@ -1,3 +1,8 @@
 MatPBRBasic : "{BB808C977AB42CAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/carpaint.emat" {
- Color 0.192 0.264 0.16 1
+ Color 0.115 0.158 0.096 1
+ DirtOpacity 0.95
+ MudOpacity 1
+ DirtColor 0.06 0.054 0.044 1
+ MudColor 0.122 0.111 0.093 1
+ DirtLayerSharpness 0.2
 }

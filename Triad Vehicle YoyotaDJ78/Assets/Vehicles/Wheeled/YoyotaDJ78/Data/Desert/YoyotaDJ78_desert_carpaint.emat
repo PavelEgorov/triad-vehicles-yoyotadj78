@@ -1,4 +1,7 @@
 MatPBRBasic : "{BB808C977AB42CAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/carpaint.emat" {
+ RoughnessScale 2.5
  BCRMap "{DBDCFD727D8AD4E9}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Desert/GritV5/YoyotaDJ78_desert_grit_paint_2k_BCR.edds"
  NMOMap "{E30446E0A4FD8677}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Desert/GritV5/YoyotaDJ78_desert_grit_paint_2k_NMO.edds"
+ DirtOpacity 0.8
+ MudOpacity 0.94
 }

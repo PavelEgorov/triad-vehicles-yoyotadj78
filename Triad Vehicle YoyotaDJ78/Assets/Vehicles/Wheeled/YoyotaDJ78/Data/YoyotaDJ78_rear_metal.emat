@@ -1,0 +1,5 @@
+MatPBRBasic : "{1748BDFC3077CADB}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/chrome.emat" {
+ MudOpacity 0.98
+ DirtLayerSharpness 0.6
+ RoughnessScale 2.2
+}

@@ -1,8 +1,8 @@
 MatPBRBasic {
  VFXMap "{618C6574F3F007AE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_exterior_step_VFX.edds"
- MudOpacity 0.94
+ MudOpacity 1
  MudColor 0.122 0.111 0.093 1
- MudRoughness 0
+ MudRoughness 1.45
  MudMetalness 0
  MudAO 0.571
  MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
@@ -12,12 +12,12 @@ MatPBRBasic {
   TilingU 0.572
   TilingV 0.572
  }
- DirtOpacity 0.41
- DirtLayerSharpness 0.35
- DirtColor 0.13 0.119 0.101 1
- DirtRoughness 1.678
+ DirtOpacity 0.95
+ DirtLayerSharpness 0.2
+ DirtColor 0.06 0.054 0.044 1
+ DirtRoughness 1.2
  DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
- DirtMaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
  DirtUVTransform MatUVTransform "{6A4B70D8E6A4F0A8}" {
   TilingU 0.286
   TilingV 0.286
