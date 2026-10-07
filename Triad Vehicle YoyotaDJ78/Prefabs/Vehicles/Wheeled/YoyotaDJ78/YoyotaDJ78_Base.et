@@ -52,6 +52,28 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
     }
    }
+   m_aNormalizeSignalData {
+    SCR_NormalizedSignalData "{698F2D67DAB43DC0}" {
+     m_fMinimum -0.135
+     m_fMaximum 0.165
+     m_fExponent 0.601
+    }
+    SCR_NormalizedSignalData "{698F2D67DACD0700}" {
+     m_fMinimum -0.135
+     m_fMaximum 0.165
+     m_fExponent 0.601
+    }
+    SCR_NormalizedSignalData "{698F2D67DB909E3A}" {
+     m_fMinimum -0.135
+     m_fMaximum 0.15
+     m_fExponent 0.5
+    }
+    SCR_NormalizedSignalData "{698F2D67DB4D62FE}" {
+     m_fMinimum -0.135
+     m_fMaximum 0.15
+     m_fExponent 0.5
+    }
+   }
   }
   BaseLightManagerComponent "{51E210F17D2534F7}" {
    LightSlots {

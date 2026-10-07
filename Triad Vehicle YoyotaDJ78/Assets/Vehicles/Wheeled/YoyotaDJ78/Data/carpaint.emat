@@ -1,9 +1,10 @@
 MatPBRBasic "{BB808C977AB42CAE}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/carpaint.emat" {
  VFXMap "{86402284DF2444D8}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/YoyotaDJ78_v4_paint_2k_VFX.edds"
+ RoughnessScale 2.5
  MetalnessScale 0
  MudOpacity 0.94
  MudColor 0.122 0.111 0.093 1
- MudRoughness 0
+ MudRoughness 1.45
  MudMetalness 0
  MudAO 0.571
  MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
